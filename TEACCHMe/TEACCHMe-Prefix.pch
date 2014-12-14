@@ -1,0 +1,19 @@
+//
+//  TEACCHMe-Prefix.pch
+//  TEACCHMe
+//
+//  Created by Michael Gu on 12/14/14.
+//  Copyright (c) 2014 Gutang. All rights reserved.
+//
+
+#ifndef TEACCHMe_TEACCHMe_Prefix_pch
+#define TEACCHMe_TEACCHMe_Prefix_pch
+#import "CoreData+MagicalRecord.h"
+#import <CoreData/CoreData.h>
+#import "CheckListItem.h"
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif

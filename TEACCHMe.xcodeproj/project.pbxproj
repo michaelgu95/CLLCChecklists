@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		687DB4F21A3DF961006E4C0E /* darkgray.png in Resources */ = {isa = PBXBuildFile; fileRef = 687DB4F11A3DF961006E4C0E /* darkgray.png */; };
+		68CCDF4F1A3D065600318873 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CCDF4E1A3D065600318873 /* main.m */; };
+		68CCDF521A3D065600318873 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CCDF511A3D065600318873 /* AppDelegate.m */; };
+		68CCDF551A3D065600318873 /* TEACCHMe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 68CCDF531A3D065600318873 /* TEACCHMe.xcdatamodeld */; };
+		68CCDF581A3D065600318873 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CCDF571A3D065600318873 /* ViewController.m */; };
+		68CCDF5D1A3D065600318873 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68CCDF5C1A3D065600318873 /* Images.xcassets */; };
+		68CCDF601A3D065600318873 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68CCDF5E1A3D065600318873 /* LaunchScreen.xib */; };
+		68CCDF6C1A3D065600318873 /* TEACCHMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CCDF6B1A3D065600318873 /* TEACCHMeTests.m */; };
+		68CCDF951A3D09FA00318873 /* M13Checkbox.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CCDF941A3D09FA00318873 /* M13Checkbox.m */; };
+		68CCDF9B1A3D0A3000318873 /* CheckBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CCDF971A3D0A3000318873 /* CheckBoxViewController.m */; };
+		68CCDF9C1A3D0A3000318873 /* CheckBoxCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CCDF991A3D0A3000318873 /* CheckBoxCell.m */; };
+		68CCDF9D1A3D0A3000318873 /* CheckBoxCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68CCDF9A1A3D0A3000318873 /* CheckBoxCell.xib */; };
+		68CCDFA51A3D0B1500318873 /* graybackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68CCDFA41A3D0B1500318873 /* graybackground.jpg */; };
+		68CCDFA81A3D0B8700318873 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68CCDFA61A3D0B8700318873 /* Main.storyboard */; };
+		68CCDFAB1A3D19A200318873 /* CheckListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CCDFAA1A3D19A200318873 /* CheckListItem.m */; };
+		68CCDFAE1A3D19A200318873 /* CheckList.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CCDFAD1A3D19A200318873 /* CheckList.m */; };
+		68CCDFB01A3D1F4000318873 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68CCDFAF1A3D1F4000318873 /* CoreData.framework */; };
+		B364E77DED1713420A678A8F /* libPods-TEACCHMe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA0289C5C257FD3E8EAC88A /* libPods-TEACCHMe.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68CCDF661A3D065600318873 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68CCDF411A3D065500318873 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68CCDF481A3D065600318873;
+			remoteInfo = TEACCHMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		687DB4F01A3DEF94006E4C0E /* TEACCHMe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TEACCHMe-Prefix.pch"; sourceTree = "<group>"; };
+		687DB4F11A3DF961006E4C0E /* darkgray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = darkgray.png; sourceTree = "<group>"; };
+		68CCDF491A3D065600318873 /* TEACCHMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TEACCHMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68CCDF4D1A3D065600318873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68CCDF4E1A3D065600318873 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68CCDF501A3D065600318873 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		68CCDF511A3D065600318873 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		68CCDF541A3D065600318873 /* TEACCHMe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TEACCHMe.xcdatamodel; sourceTree = "<group>"; };
+		68CCDF561A3D065600318873 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		68CCDF571A3D065600318873 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		68CCDF5C1A3D065600318873 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		68CCDF5F1A3D065600318873 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		68CCDF651A3D065600318873 /* TEACCHMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TEACCHMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68CCDF6A1A3D065600318873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68CCDF6B1A3D065600318873 /* TEACCHMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEACCHMeTests.m; sourceTree = "<group>"; };
+		68CCDF931A3D09FA00318873 /* M13Checkbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M13Checkbox.h; sourceTree = "<group>"; };
+		68CCDF941A3D09FA00318873 /* M13Checkbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M13Checkbox.m; sourceTree = "<group>"; };
+		68CCDF961A3D0A3000318873 /* CheckBoxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CheckBoxViewController.h; path = ../../TEACHHMe/TEACHHMe/CheckBoxViewController.h; sourceTree = "<group>"; };
+		68CCDF971A3D0A3000318873 /* CheckBoxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CheckBoxViewController.m; path = ../../TEACHHMe/TEACHHMe/CheckBoxViewController.m; sourceTree = "<group>"; };
+		68CCDF981A3D0A3000318873 /* CheckBoxCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CheckBoxCell.h; path = ../../TEACHHMe/TEACHHMe/CheckBoxCell.h; sourceTree = "<group>"; };
+		68CCDF991A3D0A3000318873 /* CheckBoxCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CheckBoxCell.m; path = ../../TEACHHMe/TEACHHMe/CheckBoxCell.m; sourceTree = "<group>"; };
+		68CCDF9A1A3D0A3000318873 /* CheckBoxCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CheckBoxCell.xib; path = ../../TEACHHMe/TEACHHMe/CheckBoxCell.xib; sourceTree = "<group>"; };
+		68CCDFA41A3D0B1500318873 /* graybackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = graybackground.jpg; path = ../../TEACHHMe/TEACHHMe/graybackground.jpg; sourceTree = "<group>"; };
+		68CCDFA71A3D0B8700318873 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../TEACHHMe/TEACHHMe/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68CCDFA91A3D19A200318873 /* CheckListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckListItem.h; sourceTree = "<group>"; };
+		68CCDFAA1A3D19A200318873 /* CheckListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckListItem.m; sourceTree = "<group>"; };
+		68CCDFAC1A3D19A200318873 /* CheckList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckList.h; sourceTree = "<group>"; };
+		68CCDFAD1A3D19A200318873 /* CheckList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckList.m; sourceTree = "<group>"; };
+		68CCDFAF1A3D1F4000318873 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7BC4247CAD30399043AF5504 /* Pods-TEACCHMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TEACCHMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-TEACCHMe/Pods-TEACCHMe.release.xcconfig"; sourceTree = "<group>"; };
+		B4574F48697F86FAF71F8819 /* Pods-TEACCHMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TEACCHMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TEACCHMe/Pods-TEACCHMe.debug.xcconfig"; sourceTree = "<group>"; };
+		EAA0289C5C257FD3E8EAC88A /* libPods-TEACCHMe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TEACCHMe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68CCDF461A3D065600318873 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68CCDFB01A3D1F4000318873 /* CoreData.framework in Frameworks */,
+				B364E77DED1713420A678A8F /* libPods-TEACCHMe.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68CCDF621A3D065600318873 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68CCDF401A3D065500318873 = {
+			isa = PBXGroup;
+			children = (
+				68CCDF4B1A3D065600318873 /* TEACCHMe */,
+				68CCDF681A3D065600318873 /* TEACCHMeTests */,
+				68CCDF4A1A3D065600318873 /* Products */,
+				A19A0F8E42E31B979BF2628B /* Pods */,
+				D7AD44EA7F60A3DB4483953F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		68CCDF4A1A3D065600318873 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68CCDF491A3D065600318873 /* TEACCHMe.app */,
+				68CCDF651A3D065600318873 /* TEACCHMeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68CCDF4B1A3D065600318873 /* TEACCHMe */ = {
+			isa = PBXGroup;
+			children = (
+				68CCDF501A3D065600318873 /* AppDelegate.h */,
+				68CCDF511A3D065600318873 /* AppDelegate.m */,
+				68CCDF561A3D065600318873 /* ViewController.h */,
+				68CCDF571A3D065600318873 /* ViewController.m */,
+				68CCDF961A3D0A3000318873 /* CheckBoxViewController.h */,
+				68CCDF971A3D0A3000318873 /* CheckBoxViewController.m */,
+				68CCDF981A3D0A3000318873 /* CheckBoxCell.h */,
+				68CCDF991A3D0A3000318873 /* CheckBoxCell.m */,
+				68CCDF9A1A3D0A3000318873 /* CheckBoxCell.xib */,
+				68CCDFA61A3D0B8700318873 /* Main.storyboard */,
+				68CCDF5C1A3D065600318873 /* Images.xcassets */,
+				68CCDF5E1A3D065600318873 /* LaunchScreen.xib */,
+				68CCDF531A3D065600318873 /* TEACCHMe.xcdatamodeld */,
+				687DB4F01A3DEF94006E4C0E /* TEACCHMe-Prefix.pch */,
+				68CCDFAC1A3D19A200318873 /* CheckList.h */,
+				68CCDFAD1A3D19A200318873 /* CheckList.m */,
+				68CCDFA91A3D19A200318873 /* CheckListItem.h */,
+				68CCDFAA1A3D19A200318873 /* CheckListItem.m */,
+				68CCDF4C1A3D065600318873 /* Supporting Files */,
+			);
+			path = TEACCHMe;
+			sourceTree = "<group>";
+		};
+		68CCDF4C1A3D065600318873 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68CCDFA41A3D0B1500318873 /* graybackground.jpg */,
+				687DB4F11A3DF961006E4C0E /* darkgray.png */,
+				68CCDF921A3D09FA00318873 /* M13Chekbox */,
+				68CCDF4D1A3D065600318873 /* Info.plist */,
+				68CCDF4E1A3D065600318873 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68CCDF681A3D065600318873 /* TEACCHMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				68CCDF6B1A3D065600318873 /* TEACCHMeTests.m */,
+				68CCDF691A3D065600318873 /* Supporting Files */,
+			);
+			path = TEACCHMeTests;
+			sourceTree = "<group>";
+		};
+		68CCDF691A3D065600318873 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68CCDF6A1A3D065600318873 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68CCDF921A3D09FA00318873 /* M13Chekbox */ = {
+			isa = PBXGroup;
+			children = (
+				68CCDF931A3D09FA00318873 /* M13Checkbox.h */,
+				68CCDF941A3D09FA00318873 /* M13Checkbox.m */,
+			);
+			name = M13Chekbox;
+			path = "../../../Downloads/M13Checkbox-master/Classes";
+			sourceTree = "<group>";
+		};
+		A19A0F8E42E31B979BF2628B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4574F48697F86FAF71F8819 /* Pods-TEACCHMe.debug.xcconfig */,
+				7BC4247CAD30399043AF5504 /* Pods-TEACCHMe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D7AD44EA7F60A3DB4483953F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68CCDFAF1A3D1F4000318873 /* CoreData.framework */,
+				EAA0289C5C257FD3E8EAC88A /* libPods-TEACCHMe.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68CCDF481A3D065600318873 /* TEACCHMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68CCDF6F1A3D065600318873 /* Build configuration list for PBXNativeTarget "TEACCHMe" */;
+			buildPhases = (
+				BF1E8D27243B0D6CFDD69AC3 /* Check Pods Manifest.lock */,
+				68CCDF451A3D065600318873 /* Sources */,
+				68CCDF461A3D065600318873 /* Frameworks */,
+				68CCDF471A3D065600318873 /* Resources */,
+				B0A75097463E104F47B6CC02 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TEACCHMe;
+			productName = TEACCHMe;
+			productReference = 68CCDF491A3D065600318873 /* TEACCHMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68CCDF641A3D065600318873 /* TEACCHMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68CCDF721A3D065600318873 /* Build configuration list for PBXNativeTarget "TEACCHMeTests" */;
+			buildPhases = (
+				68CCDF611A3D065600318873 /* Sources */,
+				68CCDF621A3D065600318873 /* Frameworks */,
+				68CCDF631A3D065600318873 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68CCDF671A3D065600318873 /* PBXTargetDependency */,
+			);
+			name = TEACCHMeTests;
+			productName = TEACCHMeTests;
+			productReference = 68CCDF651A3D065600318873 /* TEACCHMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68CCDF411A3D065500318873 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Gutang;
+				TargetAttributes = {
+					68CCDF481A3D065600318873 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					68CCDF641A3D065600318873 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 68CCDF481A3D065600318873;
+					};
+				};
+			};
+			buildConfigurationList = 68CCDF441A3D065600318873 /* Build configuration list for PBXProject "TEACCHMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68CCDF401A3D065500318873;
+			productRefGroup = 68CCDF4A1A3D065600318873 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68CCDF481A3D065600318873 /* TEACCHMe */,
+				68CCDF641A3D065600318873 /* TEACCHMeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68CCDF471A3D065600318873 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68CCDFA51A3D0B1500318873 /* graybackground.jpg in Resources */,
+				68CCDFA81A3D0B8700318873 /* Main.storyboard in Resources */,
+				68CCDF9D1A3D0A3000318873 /* CheckBoxCell.xib in Resources */,
+				68CCDF601A3D065600318873 /* LaunchScreen.xib in Resources */,
+				687DB4F21A3DF961006E4C0E /* darkgray.png in Resources */,
+				68CCDF5D1A3D065600318873 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68CCDF631A3D065600318873 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B0A75097463E104F47B6CC02 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TEACCHMe/Pods-TEACCHMe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF1E8D27243B0D6CFDD69AC3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68CCDF451A3D065600318873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68CCDF951A3D09FA00318873 /* M13Checkbox.m in Sources */,
+				68CCDF9B1A3D0A3000318873 /* CheckBoxViewController.m in Sources */,
+				68CCDFAE1A3D19A200318873 /* CheckList.m in Sources */,
+				68CCDF521A3D065600318873 /* AppDelegate.m in Sources */,
+				68CCDFAB1A3D19A200318873 /* CheckListItem.m in Sources */,
+				68CCDF4F1A3D065600318873 /* main.m in Sources */,
+				68CCDF581A3D065600318873 /* ViewController.m in Sources */,
+				68CCDF551A3D065600318873 /* TEACCHMe.xcdatamodeld in Sources */,
+				68CCDF9C1A3D0A3000318873 /* CheckBoxCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68CCDF611A3D065600318873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68CCDF6C1A3D065600318873 /* TEACCHMeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68CCDF671A3D065600318873 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68CCDF481A3D065600318873 /* TEACCHMe */;
+			targetProxy = 68CCDF661A3D065600318873 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68CCDF5E1A3D065600318873 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68CCDF5F1A3D065600318873 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		68CCDFA61A3D0B8700318873 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68CCDFA71A3D0B8700318873 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68CCDF6D1A3D065600318873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		68CCDF6E1A3D065600318873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68CCDF701A3D065600318873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4574F48697F86FAF71F8819 /* Pods-TEACCHMe.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TEACCHMe/TEACCHMe-Prefix.pch";
+				INFOPLIST_FILE = TEACCHMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		68CCDF711A3D065600318873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BC4247CAD30399043AF5504 /* Pods-TEACCHMe.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TEACCHMe/TEACCHMe-Prefix.pch";
+				INFOPLIST_FILE = TEACCHMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		68CCDF731A3D065600318873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TEACCHMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TEACCHMe.app/TEACCHMe";
+			};
+			name = Debug;
+		};
+		68CCDF741A3D065600318873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TEACCHMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TEACCHMe.app/TEACCHMe";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68CCDF441A3D065600318873 /* Build configuration list for PBXProject "TEACCHMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68CCDF6D1A3D065600318873 /* Debug */,
+				68CCDF6E1A3D065600318873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68CCDF6F1A3D065600318873 /* Build configuration list for PBXNativeTarget "TEACCHMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68CCDF701A3D065600318873 /* Debug */,
+				68CCDF711A3D065600318873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68CCDF721A3D065600318873 /* Build configuration list for PBXNativeTarget "TEACCHMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68CCDF731A3D065600318873 /* Debug */,
+				68CCDF741A3D065600318873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		68CCDF531A3D065600318873 /* TEACCHMe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				68CCDF541A3D065600318873 /* TEACCHMe.xcdatamodel */,
+			);
+			currentVersion = 68CCDF541A3D065600318873 /* TEACCHMe.xcdatamodel */;
+			path = TEACCHMe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 68CCDF411A3D065500318873 /* Project object */;
+}
