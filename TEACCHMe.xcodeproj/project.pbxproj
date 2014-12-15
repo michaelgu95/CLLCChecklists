@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		687DB4F21A3DF961006E4C0E /* darkgray.png in Resources */ = {isa = PBXBuildFile; fileRef = 687DB4F11A3DF961006E4C0E /* darkgray.png */; };
+		687DB4F51A3E6C12006E4C0E /* UseCheckBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 687DB4F41A3E6C12006E4C0E /* UseCheckBoxViewController.m */; };
 		68CCDF4F1A3D065600318873 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CCDF4E1A3D065600318873 /* main.m */; };
 		68CCDF521A3D065600318873 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CCDF511A3D065600318873 /* AppDelegate.m */; };
 		68CCDF551A3D065600318873 /* TEACCHMe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 68CCDF531A3D065600318873 /* TEACCHMe.xcdatamodeld */; };
@@ -40,6 +41,8 @@
 /* Begin PBXFileReference section */
 		687DB4F01A3DEF94006E4C0E /* TEACCHMe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TEACCHMe-Prefix.pch"; sourceTree = "<group>"; };
 		687DB4F11A3DF961006E4C0E /* darkgray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = darkgray.png; sourceTree = "<group>"; };
+		687DB4F31A3E6C12006E4C0E /* UseCheckBoxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UseCheckBoxViewController.h; sourceTree = "<group>"; };
+		687DB4F41A3E6C12006E4C0E /* UseCheckBoxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UseCheckBoxViewController.m; sourceTree = "<group>"; };
 		68CCDF491A3D065600318873 /* TEACCHMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TEACCHMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68CCDF4D1A3D065600318873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68CCDF4E1A3D065600318873 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -121,6 +124,8 @@
 				68CCDF571A3D065600318873 /* ViewController.m */,
 				68CCDF961A3D0A3000318873 /* CheckBoxViewController.h */,
 				68CCDF971A3D0A3000318873 /* CheckBoxViewController.m */,
+				687DB4F31A3E6C12006E4C0E /* UseCheckBoxViewController.h */,
+				687DB4F41A3E6C12006E4C0E /* UseCheckBoxViewController.m */,
 				68CCDF981A3D0A3000318873 /* CheckBoxCell.h */,
 				68CCDF991A3D0A3000318873 /* CheckBoxCell.m */,
 				68CCDF9A1A3D0A3000318873 /* CheckBoxCell.xib */,
@@ -338,6 +343,7 @@
 				68CCDFAE1A3D19A200318873 /* CheckList.m in Sources */,
 				68CCDF521A3D065600318873 /* AppDelegate.m in Sources */,
 				68CCDFAB1A3D19A200318873 /* CheckListItem.m in Sources */,
+				687DB4F51A3E6C12006E4C0E /* UseCheckBoxViewController.m in Sources */,
 				68CCDF4F1A3D065600318873 /* main.m in Sources */,
 				68CCDF581A3D065600318873 /* ViewController.m in Sources */,
 				68CCDF551A3D065600318873 /* TEACCHMe.xcdatamodeld in Sources */,
