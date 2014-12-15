@@ -20,7 +20,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     [self.window setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"graybackground"]]];
-    [MagicalRecord setupCoreDataStackWithStoreNamed:@"MySQLite"];
+    [MagicalRecord setupCoreDataStack];
     return YES;
 }
 
@@ -32,6 +32,8 @@
 - (void)applicationDidEnterBackground:(UIApplication *)application {
     // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+    
+    [[NSManagedObjectContext MR_defaultContext] MR_saveToPersistentStoreAndWait];
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {

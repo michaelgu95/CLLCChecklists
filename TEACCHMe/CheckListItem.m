@@ -17,6 +17,7 @@
 @dynamic image;
 @dynamic name;
 @dynamic checkList;
+@dynamic date;
 
 
 @end

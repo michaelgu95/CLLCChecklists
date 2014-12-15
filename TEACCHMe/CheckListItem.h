@@ -17,5 +17,6 @@
 @property (nonatomic, retain) NSString * image;
 @property (nonatomic, retain) NSString * name;
 @property (nonatomic, retain) CheckList *checkList;
+@property (nonatomic, retain) NSDate *date;
 
 @end

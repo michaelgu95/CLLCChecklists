@@ -9,28 +9,34 @@
 #import "UseCheckBoxViewController.h"
 #import "CheckBoxViewController.h"
 #import "CheckBoxCell.h"
+#import "UseCheckBoxCell.h"
 
 @interface UseCheckBoxViewController ()
+
 
 @end
 
 @implementation UseCheckBoxViewController
+CheckList *_checkList;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    self.checkList = [CheckList MR_findFirstByAttribute:@"name" withValue:self.nameOfCheckList];
+    
     self.collectionView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"darkgray.png"]];
     
-    UINib *checkBoxCellNib = [UINib nibWithNibName:@"CheckBoxCell" bundle:nil];
-    [self.collectionView registerNib:checkBoxCellNib forCellWithReuseIdentifier:@"cell"];
-    // Do any additional setup after loading the view.
+    UINib *checkBoxCellNib = [UINib nibWithNibName:@"UseCheckBoxCell" bundle:nil];
+    [self.collectionView registerNib:checkBoxCellNib forCellWithReuseIdentifier:@"useCheckBoxCell"];
     
     UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc] init];
     [flowLayout setItemSize:CGSizeMake(800, 300)];
     [flowLayout setScrollDirection:UICollectionViewScrollDirectionVertical];
     
     [self.collectionView setCollectionViewLayout:flowLayout];
+    
+    _checkList = self.checkList;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -47,9 +53,16 @@
 }
 
 -(UICollectionViewCell*)collectionView:(UICollectionView*)view cellForItemAtIndexPath:(NSIndexPath *)indexPath {
-    CheckBoxCell *cell = [view dequeueReusableCellWithReuseIdentifier: @"cell" forIndexPath:indexPath];
-    cell.backgroundColor = [UIColor whiteColor];
+    UseCheckBoxCell *cell = [view dequeueReusableCellWithReuseIdentifier: @"useCheckBoxCell" forIndexPath:indexPath];
     
+    NSArray *sortDescriptors = [NSArray arrayWithObject: [NSSortDescriptor sortDescriptorWithKey:@"date" ascending:YES]];
+    
+    NSArray *sortedCheckListItems = [[_checkList.checkListItem allObjects] sortedArrayUsingDescriptors:sortDescriptors];
+    
+    CheckListItem *item = [sortedCheckListItems objectAtIndex:indexPath.item];
+    cell.item = item;
+    cell.descriptionTextView.text = item.name;
+    cell.backgroundColor = [UIColor whiteColor];
     return cell;
 }
 

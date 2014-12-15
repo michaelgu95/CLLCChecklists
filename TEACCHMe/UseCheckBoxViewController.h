@@ -13,8 +13,9 @@
 @interface UseCheckBoxViewController : UIViewController<UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
 
 @property (nonatomic) CheckList *checkList;
-@property (weak,nonatomic) NSMutableDictionary *checkBoxItems;
+@property(nonatomic, strong) NSString *nameOfCheckList;
 @property (strong, nonatomic) IBOutlet UICollectionView *collectionView;
 @property (nonatomic) int numberOfCells;
+
 
 @end
