@@ -37,6 +37,7 @@ CheckList *_checkList;
     [self.collectionView setCollectionViewLayout:flowLayout];
     
     _checkList = self.checkList;
+    self.numberOfCells = (int)[self.checkList.checkListItem count];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -66,14 +67,20 @@ CheckList *_checkList;
     return cell;
 }
 
-/*
+- (IBAction)settingsButtonPressed:(id)sender {
+    [self performSegueWithIdentifier:@"settings" sender:self];
+}
+
 #pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
+
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    if([[segue identifier] isEqualToString:@"settings"]){
+        UIViewController *vc  = [segue destinationViewController];
+        vc.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+        [self presentViewController:vc animated:YES completion:nil];
+    }
 }
-*/
+
 
 @end

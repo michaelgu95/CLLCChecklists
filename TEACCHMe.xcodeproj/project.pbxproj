@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		683B04BC1A3F957B005A84D8 /* ExistingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 683B04BB1A3F957B005A84D8 /* ExistingViewController.m */; };
+		683B04C01A3FAFDE005A84D8 /* ExistingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 683B04BF1A3FAFDE005A84D8 /* ExistingCell.xib */; };
+		683B04C21A3FB2A5005A84D8 /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 683B04C11A3FB2A5005A84D8 /* circle.png */; };
+		683B04C51A3FB383005A84D8 /* ExistingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 683B04C41A3FB383005A84D8 /* ExistingCell.m */; };
+		683B04C91A3FB538005A84D8 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 683B04C81A3FB538005A84D8 /* MBProgressHUD.m */; };
 		687DB4F21A3DF961006E4C0E /* darkgray.png in Resources */ = {isa = PBXBuildFile; fileRef = 687DB4F11A3DF961006E4C0E /* darkgray.png */; };
 		687DB4F51A3E6C12006E4C0E /* UseCheckBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 687DB4F41A3E6C12006E4C0E /* UseCheckBoxViewController.m */; };
 		687DB4F71A3F81E4006E4C0E /* UseCheckBoxCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 687DB4F61A3F81E4006E4C0E /* UseCheckBoxCell.xib */; };
@@ -41,6 +46,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		683B04BA1A3F957B005A84D8 /* ExistingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExistingViewController.h; sourceTree = "<group>"; };
+		683B04BB1A3F957B005A84D8 /* ExistingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExistingViewController.m; sourceTree = "<group>"; };
+		683B04BF1A3FAFDE005A84D8 /* ExistingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ExistingCell.xib; path = ../ExistingCell.xib; sourceTree = "<group>"; };
+		683B04C11A3FB2A5005A84D8 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
+		683B04C31A3FB383005A84D8 /* ExistingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExistingCell.h; sourceTree = "<group>"; };
+		683B04C41A3FB383005A84D8 /* ExistingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExistingCell.m; sourceTree = "<group>"; };
+		683B04C71A3FB538005A84D8 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = "../../../Downloads/MBProgressHUD-master/MBProgressHUD.h"; sourceTree = "<group>"; };
+		683B04C81A3FB538005A84D8 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = "../../../Downloads/MBProgressHUD-master/MBProgressHUD.m"; sourceTree = "<group>"; };
 		687DB4F01A3DEF94006E4C0E /* TEACCHMe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TEACCHMe-Prefix.pch"; sourceTree = "<group>"; };
 		687DB4F11A3DF961006E4C0E /* darkgray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = darkgray.png; sourceTree = "<group>"; };
 		687DB4F31A3E6C12006E4C0E /* UseCheckBoxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UseCheckBoxViewController.h; sourceTree = "<group>"; };
@@ -100,6 +113,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		683B04C61A3FB528005A84D8 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				683B04C71A3FB538005A84D8 /* MBProgressHUD.h */,
+				683B04C81A3FB538005A84D8 /* MBProgressHUD.m */,
+			);
+			name = MBProgressHUD;
+			sourceTree = "<group>";
+		};
 		68CCDF401A3D065500318873 = {
 			isa = PBXGroup;
 			children = (
@@ -127,13 +149,18 @@
 				68CCDF511A3D065600318873 /* AppDelegate.m */,
 				68CCDF561A3D065600318873 /* ViewController.h */,
 				68CCDF571A3D065600318873 /* ViewController.m */,
+				683B04BA1A3F957B005A84D8 /* ExistingViewController.h */,
+				683B04BB1A3F957B005A84D8 /* ExistingViewController.m */,
+				683B04C31A3FB383005A84D8 /* ExistingCell.h */,
+				683B04C41A3FB383005A84D8 /* ExistingCell.m */,
+				683B04BF1A3FAFDE005A84D8 /* ExistingCell.xib */,
 				68CCDF961A3D0A3000318873 /* CheckBoxViewController.h */,
 				68CCDF971A3D0A3000318873 /* CheckBoxViewController.m */,
-				687DB4F31A3E6C12006E4C0E /* UseCheckBoxViewController.h */,
-				687DB4F41A3E6C12006E4C0E /* UseCheckBoxViewController.m */,
 				68CCDF981A3D0A3000318873 /* CheckBoxCell.h */,
 				68CCDF991A3D0A3000318873 /* CheckBoxCell.m */,
 				68CCDF9A1A3D0A3000318873 /* CheckBoxCell.xib */,
+				687DB4F31A3E6C12006E4C0E /* UseCheckBoxViewController.h */,
+				687DB4F41A3E6C12006E4C0E /* UseCheckBoxViewController.m */,
 				687DB4F81A3F8224006E4C0E /* UseCheckBoxCell.h */,
 				687DB4F91A3F8224006E4C0E /* UseCheckBoxCell.m */,
 				687DB4F61A3F81E4006E4C0E /* UseCheckBoxCell.xib */,
@@ -154,6 +181,8 @@
 		68CCDF4C1A3D065600318873 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				683B04C61A3FB528005A84D8 /* MBProgressHUD */,
+				683B04C11A3FB2A5005A84D8 /* circle.png */,
 				68CCDFA41A3D0B1500318873 /* graybackground.jpg */,
 				687DB4F11A3DF961006E4C0E /* darkgray.png */,
 				68CCDF921A3D09FA00318873 /* M13Chekbox */,
@@ -293,7 +322,9 @@
 				68CCDFA51A3D0B1500318873 /* graybackground.jpg in Resources */,
 				68CCDFA81A3D0B8700318873 /* Main.storyboard in Resources */,
 				687DB4F71A3F81E4006E4C0E /* UseCheckBoxCell.xib in Resources */,
+				683B04C21A3FB2A5005A84D8 /* circle.png in Resources */,
 				68CCDF9D1A3D0A3000318873 /* CheckBoxCell.xib in Resources */,
+				683B04C01A3FAFDE005A84D8 /* ExistingCell.xib in Resources */,
 				68CCDF601A3D065600318873 /* LaunchScreen.xib in Resources */,
 				687DB4F21A3DF961006E4C0E /* darkgray.png in Resources */,
 				68CCDF5D1A3D065600318873 /* Images.xcassets in Resources */,
@@ -351,13 +382,16 @@
 				68CCDF9B1A3D0A3000318873 /* CheckBoxViewController.m in Sources */,
 				68CCDFAE1A3D19A200318873 /* CheckList.m in Sources */,
 				68CCDF521A3D065600318873 /* AppDelegate.m in Sources */,
+				683B04C51A3FB383005A84D8 /* ExistingCell.m in Sources */,
 				68CCDFAB1A3D19A200318873 /* CheckListItem.m in Sources */,
 				687DB4FA1A3F8224006E4C0E /* UseCheckBoxCell.m in Sources */,
 				687DB4F51A3E6C12006E4C0E /* UseCheckBoxViewController.m in Sources */,
 				68CCDF4F1A3D065600318873 /* main.m in Sources */,
 				68CCDF581A3D065600318873 /* ViewController.m in Sources */,
+				683B04BC1A3F957B005A84D8 /* ExistingViewController.m in Sources */,
 				68CCDF551A3D065600318873 /* TEACCHMe.xcdatamodeld in Sources */,
 				68CCDF9C1A3D0A3000318873 /* CheckBoxCell.m in Sources */,
+				683B04C91A3FB538005A84D8 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
