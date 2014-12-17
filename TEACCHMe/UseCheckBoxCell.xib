@@ -55,8 +55,8 @@
             <variation key="default">
                 <mask key="constraints">
                     <exclude reference="1nd-9N-cR8"/>
-                    <exclude reference="DMf-hz-ziX"/>
                     <exclude reference="CPb-kC-yOU"/>
+                    <exclude reference="DMf-hz-ziX"/>
                 </mask>
             </variation>
             <connections>

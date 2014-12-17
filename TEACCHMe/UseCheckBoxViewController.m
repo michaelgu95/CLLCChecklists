@@ -10,6 +10,7 @@
 #import "CheckBoxViewController.h"
 #import "CheckBoxCell.h"
 #import "UseCheckBoxCell.h"
+#import "SettingsCheckBoxViewController.h"
 
 @interface UseCheckBoxViewController ()
 
@@ -64,6 +65,8 @@ CheckList *_checkList;
     cell.item = item;
     cell.descriptionTextView.text = item.name;
     cell.imageView.image = [[UIImage alloc]initWithData:item.image];
+    cell.checked = item.checked;
+    
     cell.backgroundColor = [UIColor whiteColor];
     return cell;
 }
@@ -77,9 +80,8 @@ CheckList *_checkList;
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if([[segue identifier] isEqualToString:@"settings"]){
-        UIViewController *vc  = [segue destinationViewController];
-        vc.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
-        [self presentViewController:vc animated:YES completion:nil];
+        SettingsCheckBoxViewController *vc  = [segue destinationViewController];
+        vc.checkList = self.checkList;
     }
 }
 

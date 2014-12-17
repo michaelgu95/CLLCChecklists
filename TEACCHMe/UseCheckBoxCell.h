@@ -13,4 +13,5 @@
 @property (weak, nonatomic) IBOutlet UITextView*descriptionTextView;
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 @property (weak, nonatomic) CheckListItem *item;
+@property(nonatomic)BOOL checked;
 @end

@@ -26,6 +26,9 @@
 		683B04EB1A41CEF0005A84D8 /* PLCameraSheetDoneButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 683B04DD1A41CEF0005A84D8 /* PLCameraSheetDoneButton@2x.png */; };
 		683B04EC1A41CEF0005A84D8 /* PLCameraSheetDoneButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 683B04DE1A41CEF0005A84D8 /* PLCameraSheetDoneButtonPressed.png */; };
 		683B04ED1A41CEF0005A84D8 /* PLCameraSheetDoneButtonPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 683B04DF1A41CEF0005A84D8 /* PLCameraSheetDoneButtonPressed@2x.png */; };
+		683B04F61A4204FC005A84D8 /* SettingsCheckBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 683B04F51A4204FC005A84D8 /* SettingsCheckBoxViewController.m */; };
+		683B04FA1A420750005A84D8 /* SettingsCheckBoxCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 683B04F81A420750005A84D8 /* SettingsCheckBoxCell.m */; };
+		683B04FB1A420750005A84D8 /* SettingsCheckBoxCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 683B04F91A420750005A84D8 /* SettingsCheckBoxCell.xib */; };
 		687DB4F21A3DF961006E4C0E /* darkgray.png in Resources */ = {isa = PBXBuildFile; fileRef = 687DB4F11A3DF961006E4C0E /* darkgray.png */; };
 		687DB4F51A3E6C12006E4C0E /* UseCheckBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 687DB4F41A3E6C12006E4C0E /* UseCheckBoxViewController.m */; };
 		687DB4F71A3F81E4006E4C0E /* UseCheckBoxCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 687DB4F61A3F81E4006E4C0E /* UseCheckBoxCell.xib */; };
@@ -88,6 +91,11 @@
 		683B04DD1A41CEF0005A84D8 /* PLCameraSheetDoneButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PLCameraSheetDoneButton@2x.png"; sourceTree = "<group>"; };
 		683B04DE1A41CEF0005A84D8 /* PLCameraSheetDoneButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PLCameraSheetDoneButtonPressed.png; sourceTree = "<group>"; };
 		683B04DF1A41CEF0005A84D8 /* PLCameraSheetDoneButtonPressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PLCameraSheetDoneButtonPressed@2x.png"; sourceTree = "<group>"; };
+		683B04F41A4204FC005A84D8 /* SettingsCheckBoxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsCheckBoxViewController.h; sourceTree = "<group>"; };
+		683B04F51A4204FC005A84D8 /* SettingsCheckBoxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsCheckBoxViewController.m; sourceTree = "<group>"; };
+		683B04F71A420750005A84D8 /* SettingsCheckBoxCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsCheckBoxCell.h; sourceTree = "<group>"; };
+		683B04F81A420750005A84D8 /* SettingsCheckBoxCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsCheckBoxCell.m; sourceTree = "<group>"; };
+		683B04F91A420750005A84D8 /* SettingsCheckBoxCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsCheckBoxCell.xib; sourceTree = "<group>"; };
 		687DB4F01A3DEF94006E4C0E /* TEACCHMe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TEACCHMe-Prefix.pch"; sourceTree = "<group>"; };
 		687DB4F11A3DF961006E4C0E /* darkgray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = darkgray.png; sourceTree = "<group>"; };
 		687DB4F31A3E6C12006E4C0E /* UseCheckBoxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UseCheckBoxViewController.h; sourceTree = "<group>"; };
@@ -234,6 +242,11 @@
 				687DB4F81A3F8224006E4C0E /* UseCheckBoxCell.h */,
 				687DB4F91A3F8224006E4C0E /* UseCheckBoxCell.m */,
 				687DB4F61A3F81E4006E4C0E /* UseCheckBoxCell.xib */,
+				683B04F41A4204FC005A84D8 /* SettingsCheckBoxViewController.h */,
+				683B04F51A4204FC005A84D8 /* SettingsCheckBoxViewController.m */,
+				683B04F71A420750005A84D8 /* SettingsCheckBoxCell.h */,
+				683B04F81A420750005A84D8 /* SettingsCheckBoxCell.m */,
+				683B04F91A420750005A84D8 /* SettingsCheckBoxCell.xib */,
 				68CCDFA61A3D0B8700318873 /* Main.storyboard */,
 				68CCDF5C1A3D065600318873 /* Images.xcassets */,
 				68CCDF5E1A3D065600318873 /* LaunchScreen.xib */,
@@ -392,6 +405,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				683B04E71A41CEF0005A84D8 /* PLCameraSheetButton@2x.png in Resources */,
+				683B04FB1A420750005A84D8 /* SettingsCheckBoxCell.xib in Resources */,
 				68CCDFA51A3D0B1500318873 /* graybackground.jpg in Resources */,
 				68CCDFA81A3D0B8700318873 /* Main.storyboard in Resources */,
 				687DB4F71A3F81E4006E4C0E /* UseCheckBoxCell.xib in Resources */,
@@ -461,6 +475,7 @@
 				68CCDF951A3D09FA00318873 /* M13Checkbox.m in Sources */,
 				68CCDF9B1A3D0A3000318873 /* CheckBoxViewController.m in Sources */,
 				68CCDFAE1A3D19A200318873 /* CheckList.m in Sources */,
+				683B04FA1A420750005A84D8 /* SettingsCheckBoxCell.m in Sources */,
 				68CCDF521A3D065600318873 /* AppDelegate.m in Sources */,
 				683B04E01A41CEF0005A84D8 /* GKCropBorderView.m in Sources */,
 				683B04C51A3FB383005A84D8 /* ExistingCell.m in Sources */,
@@ -472,6 +487,7 @@
 				68CCDF4F1A3D065600318873 /* main.m in Sources */,
 				68CCDF581A3D065600318873 /* ViewController.m in Sources */,
 				683B04E51A41CEF0005A84D8 /* GKResizeableCropOverlayView.m in Sources */,
+				683B04F61A4204FC005A84D8 /* SettingsCheckBoxViewController.m in Sources */,
 				683B04BC1A3F957B005A84D8 /* ExistingViewController.m in Sources */,
 				68CCDF551A3D065600318873 /* TEACCHMe.xcdatamodeld in Sources */,
 				68CCDF9C1A3D0A3000318873 /* CheckBoxCell.m in Sources */,

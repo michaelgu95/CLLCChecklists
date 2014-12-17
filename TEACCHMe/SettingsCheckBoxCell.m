@@ -1,40 +1,49 @@
 //
-//  UseCheckBoxCell.m
+//  SettingsCheckBoxCell.m
 //  TEACCHMe
 //
-//  Created by Michael Gu on 12/15/14.
+//  Created by Michael Gu on 12/17/14.
 //  Copyright (c) 2014 Gutang. All rights reserved.
 //
 
-#import "UseCheckBoxCell.h"
-#import "AppDelegate.h"
+#import "SettingsCheckBoxCell.h"
 #import "M13Checkbox.h"
 
-@implementation UseCheckBoxCell
+@implementation SettingsCheckBoxCell
 NSManagedObjectContext *_localContext;
 UIButton *_checkbox;
 BOOL checkBoxSelected;
 
-
 - (void)awakeFromNib {
-    // Initialization code
+    
     self.checked = checkBoxSelected;
     if(self.checked){
         [_checkbox setSelected:YES];
     }
+    
+    [self.descriptionTextView setDelegate:self];
     self.layer.cornerRadius = 5;
     self.layer.masksToBounds = YES;
     
     
     //Checkbox
-    M13Checkbox *box = [[M13Checkbox alloc] initWithFrame:CGRectMake(75,100, 100, 100) title:@"" checkHeight:110];
+    M13Checkbox *box = [[M13Checkbox alloc] initWithFrame:CGRectMake(75,100, 110, 110) title:@"" checkHeight:110];
     box.tintColor = [UIColor colorWithRed: 0.608 green: 0.967 blue: 0.646 alpha: 1];
     
     [self addSubview:box];
 }
 
--(void)checkboxSelected:(id)sender
+-(void)textViewDidChange:(UITextView *)textView{
+    
+    NSString *name = self.descriptionTextView.text;
+    self.item.name = name;
+}
 
+-(void)saveImage{
+    self.item.image = UIImageJPEGRepresentation( self.imageView.image, 1);
+}
+
+-(void)checkboxSelected:(id)sender
 {
     checkBoxSelected = !checkBoxSelected;
     [_checkbox setSelected:checkBoxSelected];
