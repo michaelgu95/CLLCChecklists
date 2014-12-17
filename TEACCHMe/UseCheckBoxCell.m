@@ -23,7 +23,7 @@ BOOL checkBoxSelected;
     
     
     //Checkbox
-    M13Checkbox *box = [[M13Checkbox alloc] initWithFrame:CGRectMake(100,100, 80, 80) title:@"" checkHeight:80.0];
+    M13Checkbox *box = [[M13Checkbox alloc] initWithFrame:CGRectMake(75,100, 100, 100) title:@"" checkHeight:110];
     box.tintColor = [UIColor colorWithRed: 0.608 green: 0.967 blue: 0.646 alpha: 1];
     
     [self addSubview:box];
