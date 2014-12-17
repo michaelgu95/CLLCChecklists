@@ -66,6 +66,9 @@ BOOL _addingMore;
     [hud hide:YES afterDelay:1.4];
     NSLog(@"%@", self.checkList.name);
 }
+- (IBAction)deleteButtonPressed:(id)sender {
+     [CheckList MR_deleteAllMatchingPredicate:[NSPredicate predicateWithFormat:@"%K  = %@", @"name", self.checkList.name]];
+}
 
 - (void)textFieldDidChange:(NSNotification *)notification {
     self.checkList.name = self.titleTextField.text;

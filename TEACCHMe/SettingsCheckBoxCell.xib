@@ -35,10 +35,10 @@
                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                     </textView>
                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h5t-NN-QmB">
-                        <rect key="frame" x="385" y="227" width="199" height="73"/>
+                        <rect key="frame" x="384" y="113" width="199" height="73"/>
                         <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="21"/>
                         <state key="normal" title="Tap to change image">
-                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                         </state>
                     </button>
@@ -46,30 +46,22 @@
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             </view>
             <constraints>
-                <constraint firstAttribute="trailing" secondItem="WcX-Ah-PB7" secondAttribute="trailing" id="0Zy-bR-ye3"/>
-                <constraint firstItem="WcX-Ah-PB7" firstAttribute="leading" secondItem="9RJ-dC-Sgf" secondAttribute="leading" id="3cj-0Q-la7"/>
-                <constraint firstItem="h5t-NN-QmB" firstAttribute="top" secondItem="9RJ-dC-Sgf" secondAttribute="top" constant="99" id="8Be-4X-Imb"/>
-                <constraint firstItem="ypq-uq-iVi" firstAttribute="leading" secondItem="QcC-E0-Bik" secondAttribute="trailing" constant="-1" id="9SS-QV-N6t"/>
-                <constraint firstItem="QcC-E0-Bik" firstAttribute="leading" secondItem="h5t-NN-QmB" secondAttribute="trailing" constant="-214" id="CZN-np-eeV"/>
-                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="WcX-Ah-PB7" secondAttribute="bottom" id="FGf-2H-leC"/>
-                <constraint firstItem="WcX-Ah-PB7" firstAttribute="top" secondItem="9RJ-dC-Sgf" secondAttribute="top" id="ZHj-lP-bas"/>
-                <constraint firstAttribute="centerY" secondItem="QcC-E0-Bik" secondAttribute="centerY" id="bzF-tG-vAL"/>
-                <constraint firstItem="QcC-E0-Bik" firstAttribute="top" secondItem="h5t-NN-QmB" secondAttribute="bottom" constant="-124" id="jiq-xX-NTA"/>
-                <constraint firstItem="WcX-Ah-PB7" firstAttribute="top" secondItem="9RJ-dC-Sgf" secondAttribute="top" id="mXl-ae-8Oi"/>
-                <constraint firstAttribute="trailing" secondItem="ypq-uq-iVi" secondAttribute="trailing" constant="37" id="v2g-kZ-Uao"/>
-                <constraint firstAttribute="bottom" secondItem="WcX-Ah-PB7" secondAttribute="bottom" constant="-19" id="w7P-gS-dR0"/>
-                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="WcX-Ah-PB7" secondAttribute="bottom" id="xyC-3o-k0p"/>
-                <constraint firstItem="ypq-uq-iVi" firstAttribute="leading" secondItem="WcX-Ah-PB7" secondAttribute="trailing" constant="-337" id="yPq-Ld-msm"/>
-                <constraint firstAttribute="centerY" secondItem="ypq-uq-iVi" secondAttribute="centerY" id="zkY-fc-OHG"/>
+                <constraint firstItem="h5t-NN-QmB" firstAttribute="top" secondItem="QcC-E0-Bik" secondAttribute="bottom" constant="-133" id="IG9-jf-XR0"/>
+                <constraint firstItem="WcX-Ah-PB7" firstAttribute="top" secondItem="9RJ-dC-Sgf" secondAttribute="top" constant="-51" id="PFE-vq-5de"/>
+                <constraint firstAttribute="bottom" secondItem="WcX-Ah-PB7" secondAttribute="bottom" id="PIf-Qb-aRr"/>
+                <constraint firstItem="ypq-uq-iVi" firstAttribute="leading" secondItem="WcX-Ah-PB7" secondAttribute="trailing" constant="-337" id="Szk-Rf-1bn"/>
+                <constraint firstItem="QcC-E0-Bik" firstAttribute="top" secondItem="WcX-Ah-PB7" secondAttribute="bottom" constant="-265" id="Uoh-43-yyL"/>
+                <constraint firstAttribute="bottom" secondItem="WcX-Ah-PB7" secondAttribute="bottom" constant="-13" id="VEh-hw-4cX"/>
+                <constraint firstItem="ypq-uq-iVi" firstAttribute="top" secondItem="WcX-Ah-PB7" secondAttribute="bottom" constant="-265" id="cH0-aX-RKL"/>
+                <constraint firstAttribute="trailing" secondItem="WcX-Ah-PB7" secondAttribute="trailing" constant="-60" id="cI4-kB-rwY"/>
+                <constraint firstAttribute="trailing" secondItem="WcX-Ah-PB7" secondAttribute="trailing" id="mHs-aH-oLx"/>
+                <constraint firstItem="ypq-uq-iVi" firstAttribute="leading" secondItem="QcC-E0-Bik" secondAttribute="trailing" constant="-1" id="rWb-8r-Cbi"/>
+                <constraint firstItem="QcC-E0-Bik" firstAttribute="leading" secondItem="h5t-NN-QmB" secondAttribute="trailing" constant="-231" id="sSa-31-IXF"/>
+                <constraint firstItem="WcX-Ah-PB7" firstAttribute="leading" secondItem="9RJ-dC-Sgf" secondAttribute="leading" constant="-10" id="tos-iB-1N7"/>
+                <constraint firstItem="WcX-Ah-PB7" firstAttribute="leading" secondItem="9RJ-dC-Sgf" secondAttribute="leading" id="uic-kG-f0b"/>
+                <constraint firstItem="WcX-Ah-PB7" firstAttribute="top" secondItem="9RJ-dC-Sgf" secondAttribute="top" id="zql-pP-gp2"/>
             </constraints>
             <size key="customSize" width="528" height="94"/>
-            <variation key="default">
-                <mask key="constraints">
-                    <exclude reference="0Zy-bR-ye3"/>
-                    <exclude reference="FGf-2H-leC"/>
-                    <exclude reference="xyC-3o-k0p"/>
-                </mask>
-            </variation>
             <connections>
                 <outlet property="descriptionTextView" destination="ypq-uq-iVi" id="ZLn-JP-kvR"/>
                 <outlet property="imageView" destination="QcC-E0-Bik" id="IbG-iD-UDo"/>

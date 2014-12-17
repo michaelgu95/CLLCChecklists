@@ -24,8 +24,8 @@
                             <constraint firstAttribute="width" constant="300" id="sLT-s9-97g"/>
                         </constraints>
                     </imageView>
-                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" keyboardDismissMode="onDrag" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="A4Q-Du-O8U">
-                        <rect key="frame" x="626" y="48" width="240" height="198"/>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" keyboardDismissMode="onDrag" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="A4Q-Du-O8U">
+                        <rect key="frame" x="626" y="51" width="240" height="198"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="198" id="0TL-Z1-ai3"/>

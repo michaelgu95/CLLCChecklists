@@ -21,7 +21,7 @@ static NSString *const reuseIdentifier = @"existingCell";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.collectionView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"darkgray.png"]];
     UINib *existingCellNib = [UINib nibWithNibName:@"ExistingCell" bundle:nil];
     [self.collectionView registerNib:existingCellNib forCellWithReuseIdentifier:reuseIdentifier];
     [self.collectionView setBackgroundColor:[UIColor whiteColor]];
