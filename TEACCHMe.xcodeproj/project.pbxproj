@@ -237,12 +237,12 @@
 				68CCDFA61A3D0B8700318873 /* Main.storyboard */,
 				68CCDF5C1A3D065600318873 /* Images.xcassets */,
 				68CCDF5E1A3D065600318873 /* LaunchScreen.xib */,
-				68CCDF531A3D065600318873 /* TEACCHMe.xcdatamodeld */,
 				687DB4F01A3DEF94006E4C0E /* TEACCHMe-Prefix.pch */,
 				68CCDFAC1A3D19A200318873 /* CheckList.h */,
 				68CCDFAD1A3D19A200318873 /* CheckList.m */,
 				68CCDFA91A3D19A200318873 /* CheckListItem.h */,
 				68CCDFAA1A3D19A200318873 /* CheckListItem.m */,
+				68CCDF531A3D065600318873 /* TEACCHMe.xcdatamodeld */,
 				68CCDF4C1A3D065600318873 /* Supporting Files */,
 			);
 			path = TEACCHMe;

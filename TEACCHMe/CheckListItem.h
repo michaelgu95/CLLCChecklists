@@ -14,7 +14,7 @@
 @interface CheckListItem : NSManagedObject
 
 @property (nonatomic, retain) NSNumber * checked;
-@property (nonatomic, retain) NSString * image;
+@property (nonatomic, retain) NSData *image;
 @property (nonatomic, retain) NSString * name;
 @property (nonatomic, retain) CheckList *checkList;
 @property (nonatomic, retain) NSDate *date;

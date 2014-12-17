@@ -63,6 +63,7 @@ CheckList *_checkList;
     CheckListItem *item = [sortedCheckListItems objectAtIndex:indexPath.item];
     cell.item = item;
     cell.descriptionTextView.text = item.name;
+    cell.imageView.image = [[UIImage alloc]initWithData:item.image];
     cell.backgroundColor = [UIColor whiteColor];
     return cell;
 }
