@@ -97,6 +97,8 @@ BOOL _addingMore;
         cell.item.CheckList = self.checkList;
         [cell.pickImageButton addTarget:self action:@selector(showResizablePicker:) forControlEvents:UIControlEventTouchUpInside];
         [cell.pickImageButton addTarget:self action:@selector(useThisCell:) forControlEvents:UIControlEventTouchUpInside];
+        [cell.deleteButton addTarget:self action:@selector(deleteCell:) forControlEvents:UIControlEventTouchUpInside];
+
         return cell;
 
         
@@ -117,11 +119,30 @@ BOOL _addingMore;
 
         [cell.pickImageButton addTarget:self action:@selector(showResizablePicker:) forControlEvents:UIControlEventTouchUpInside];
         [cell.pickImageButton addTarget:self action:@selector(useThisCell:) forControlEvents:UIControlEventTouchUpInside];
+        [cell.deleteButton addTarget:self action:@selector(deleteCell:) forControlEvents:UIControlEventTouchUpInside];
         return cell;
     }
 }
 
 #pragma mark - selectors for pickImageButton
+
+-(void)deleteCell:(id)sender {
+    if(_addingMore) {
+        CheckBoxCell *cellToDelete = (CheckBoxCell *)[[sender superview] superview ];
+        _numberOfCells -= 1;
+        NSIndexPath *indexPathOfCell = [self.collectionView indexPathForCell:cellToDelete];
+        [self.collectionView deleteItemsAtIndexPaths:@[indexPathOfCell]];
+        [CheckListItem MR_deleteAllMatchingPredicate:[NSPredicate predicateWithFormat:@"date = %@", cellToDelete.item.date]];
+
+        
+    }else {
+        SettingsCheckBoxCell *cellToDelete = (SettingsCheckBoxCell *)[[sender superview] superview];
+        _numberOfCells--;
+        NSIndexPath *indexPathForCell = [self.collectionView indexPathForCell:cellToDelete];
+        [self.collectionView deleteItemsAtIndexPaths:@[indexPathForCell]];
+         [CheckListItem MR_deleteAllMatchingPredicate:[NSPredicate predicateWithFormat:@"date = %@", cellToDelete.item.date]];
+    }
+}
 
 -(void)useThisCell:(id)sender{
     _cellInUse = (SettingsCheckBoxCell *)[[sender superview] superview];

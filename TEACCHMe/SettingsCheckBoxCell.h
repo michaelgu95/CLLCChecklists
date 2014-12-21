@@ -12,6 +12,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *pickImageButton;
 @property (weak, nonatomic) IBOutlet UITextView *descriptionTextView;
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
+@property (weak, nonatomic) IBOutlet UIButton *deleteButton;
 @property (weak, nonatomic) CheckListItem *item;
 @property(nonatomic)BOOL checked;
 
