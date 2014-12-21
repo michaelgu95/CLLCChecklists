@@ -33,6 +33,8 @@
 		687DB4F51A3E6C12006E4C0E /* UseCheckBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 687DB4F41A3E6C12006E4C0E /* UseCheckBoxViewController.m */; };
 		687DB4F71A3F81E4006E4C0E /* UseCheckBoxCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 687DB4F61A3F81E4006E4C0E /* UseCheckBoxCell.xib */; };
 		687DB4FA1A3F8224006E4C0E /* UseCheckBoxCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 687DB4F91A3F8224006E4C0E /* UseCheckBoxCell.m */; };
+		6881FF791A42441200B08879 /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 6881FF781A42441200B08879 /* delete.png */; };
+		6881FF7B1A42475800B08879 /* deletebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 6881FF7A1A42475800B08879 /* deletebutton.png */; };
 		68CCDF4F1A3D065600318873 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CCDF4E1A3D065600318873 /* main.m */; };
 		68CCDF521A3D065600318873 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CCDF511A3D065600318873 /* AppDelegate.m */; };
 		68CCDF551A3D065600318873 /* TEACCHMe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 68CCDF531A3D065600318873 /* TEACCHMe.xcdatamodeld */; };
@@ -103,6 +105,8 @@
 		687DB4F61A3F81E4006E4C0E /* UseCheckBoxCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UseCheckBoxCell.xib; sourceTree = "<group>"; };
 		687DB4F81A3F8224006E4C0E /* UseCheckBoxCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UseCheckBoxCell.h; sourceTree = "<group>"; };
 		687DB4F91A3F8224006E4C0E /* UseCheckBoxCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UseCheckBoxCell.m; sourceTree = "<group>"; };
+		6881FF781A42441200B08879 /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
+		6881FF7A1A42475800B08879 /* deletebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deletebutton.png; sourceTree = "<group>"; };
 		68CCDF491A3D065600318873 /* TEACCHMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TEACCHMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68CCDF4D1A3D065600318873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68CCDF4E1A3D065600318873 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -269,8 +273,10 @@
 				683B04D71A41CEF0005A84D8 /* GKImages */,
 				683B04C61A3FB528005A84D8 /* MBProgressHUD */,
 				683B04C11A3FB2A5005A84D8 /* circle.png */,
+				6881FF781A42441200B08879 /* delete.png */,
 				68CCDFA41A3D0B1500318873 /* graybackground.jpg */,
 				687DB4F11A3DF961006E4C0E /* darkgray.png */,
+				6881FF7A1A42475800B08879 /* deletebutton.png */,
 				68CCDF4D1A3D065600318873 /* Info.plist */,
 				68CCDF4E1A3D065600318873 /* main.m */,
 			);
@@ -414,12 +420,14 @@
 				683B04E91A41CEF0005A84D8 /* PLCameraSheetButtonPressed@2x.png in Resources */,
 				683B04ED1A41CEF0005A84D8 /* PLCameraSheetDoneButtonPressed@2x.png in Resources */,
 				683B04EC1A41CEF0005A84D8 /* PLCameraSheetDoneButtonPressed.png in Resources */,
+				6881FF7B1A42475800B08879 /* deletebutton.png in Resources */,
 				683B04E81A41CEF0005A84D8 /* PLCameraSheetButtonPressed.png in Resources */,
 				683B04E61A41CEF0005A84D8 /* PLCameraSheetButton.png in Resources */,
 				68CCDF9D1A3D0A3000318873 /* CheckBoxCell.xib in Resources */,
 				683B04C01A3FAFDE005A84D8 /* ExistingCell.xib in Resources */,
 				68CCDF601A3D065600318873 /* LaunchScreen.xib in Resources */,
 				687DB4F21A3DF961006E4C0E /* darkgray.png in Resources */,
+				6881FF791A42441200B08879 /* delete.png in Resources */,
 				683B04EA1A41CEF0005A84D8 /* PLCameraSheetDoneButton.png in Resources */,
 				68CCDF5D1A3D065600318873 /* Images.xcassets in Resources */,
 			);

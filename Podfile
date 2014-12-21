@@ -5,6 +5,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'TEACCHMe' do
 pod "MagicalRecord"
+pod 'JGProgressHUD'
 
 end
 

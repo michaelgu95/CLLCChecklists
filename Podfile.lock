@@ -1,12 +1,15 @@
 PODS:
+  - JGProgressHUD (1.2.2)
   - MagicalRecord (2.2):
     - MagicalRecord/Core
   - MagicalRecord/Core (2.2)
 
 DEPENDENCIES:
+  - JGProgressHUD
   - MagicalRecord
 
 SPEC CHECKSUMS:
+  JGProgressHUD: a7c58f711eec0b67f257a0821c0bac9194c72398
   MagicalRecord: 2b471584fc9e3137f3d0a56967917baa4979e224
 
 COCOAPODS: 0.34.4
