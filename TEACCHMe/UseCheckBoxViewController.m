@@ -58,14 +58,15 @@ CheckList *_checkList;
     UseCheckBoxCell *cell = [view dequeueReusableCellWithReuseIdentifier: @"useCheckBoxCell" forIndexPath:indexPath];
     
     NSArray *sortDescriptors = [NSArray arrayWithObject: [NSSortDescriptor sortDescriptorWithKey:@"date" ascending:YES]];
-    
     NSArray *sortedCheckListItems = [[_checkList.checkListItem allObjects] sortedArrayUsingDescriptors:sortDescriptors];
     
     CheckListItem *item = [sortedCheckListItems objectAtIndex:indexPath.item];
     cell.item = item;
     cell.descriptionTextView.text = item.name;
+    cell.descriptionTextView.font = [UIFont fontWithName:@"Avenir Roman" size:39.0];
     cell.imageView.image = [[UIImage alloc]initWithData:item.image];
     cell.checked = item.checked;
+    
     
     cell.backgroundColor = [UIColor whiteColor];
     return cell;

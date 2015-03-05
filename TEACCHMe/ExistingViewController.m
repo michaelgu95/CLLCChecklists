@@ -31,13 +31,10 @@ static NSString *const reuseIdentifier = @"existingCell";
     [flowLayout setScrollDirection:UICollectionViewScrollDirectionVertical];
     
     [self.collectionView setCollectionViewLayout:flowLayout];
-
     
     _allCheckLists = [CheckList MR_findAll];
      _checkListCount = [ _allCheckLists count];
     
-    
-    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
@@ -65,7 +62,6 @@ static NSString *const reuseIdentifier = @"existingCell";
 #pragma mark <UICollectionViewDataSource>
 
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
-
     return 1;
 }
 

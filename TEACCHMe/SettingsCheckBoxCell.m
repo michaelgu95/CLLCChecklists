@@ -25,7 +25,6 @@ BOOL checkBoxSelected;
     self.layer.cornerRadius = 5;
     self.layer.masksToBounds = YES;
     
-    
     //Checkbox
     M13Checkbox *box = [[M13Checkbox alloc] initWithFrame:CGRectMake(75,100, 110, 110) title:@"" checkHeight:110];
     box.tintColor = [UIColor colorWithRed: 0.608 green: 0.967 blue: 0.646 alpha: 1];
@@ -34,7 +33,6 @@ BOOL checkBoxSelected;
 }
 
 -(void)textViewDidChange:(UITextView *)textView{
-    
     NSString *name = self.descriptionTextView.text;
     self.item.name = name;
 }

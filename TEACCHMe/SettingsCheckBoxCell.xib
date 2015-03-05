@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <objects>
@@ -42,7 +43,7 @@
                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                         </state>
                     </button>
-                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b3A-w8-48v">
+                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b3A-w8-48v">
                         <rect key="frame" x="833" y="8" width="35" height="35"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="35" id="4tV-OH-b7l"/>
@@ -50,7 +51,7 @@
                             <constraint firstAttribute="height" constant="35" id="g1p-tg-rk7"/>
                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="35" id="lh3-A1-jxw"/>
                         </constraints>
-                        <state key="normal" title="Button" image="deletebutton.png">
+                        <state key="normal" title="Button" image="flatdeletebutton.png">
                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                         </state>
                     </button>
@@ -60,6 +61,7 @@
             <constraints>
                 <constraint firstItem="h5t-NN-QmB" firstAttribute="top" secondItem="QcC-E0-Bik" secondAttribute="bottom" constant="-133" id="IG9-jf-XR0"/>
                 <constraint firstItem="b3A-w8-48v" firstAttribute="leading" secondItem="WcX-Ah-PB7" secondAttribute="trailing" constant="-130" id="JUK-4T-jk2"/>
+                <constraint firstItem="WcX-Ah-PB7" firstAttribute="top" secondItem="b3A-w8-48v" secondAttribute="bottom" constant="-94" id="Ndh-oL-rFG"/>
                 <constraint firstItem="WcX-Ah-PB7" firstAttribute="top" secondItem="9RJ-dC-Sgf" secondAttribute="top" constant="-51" id="PFE-vq-5de"/>
                 <constraint firstAttribute="bottom" secondItem="WcX-Ah-PB7" secondAttribute="bottom" id="PIf-Qb-aRr"/>
                 <constraint firstItem="ypq-uq-iVi" firstAttribute="leading" secondItem="WcX-Ah-PB7" secondAttribute="trailing" constant="-337" id="Szk-Rf-1bn"/>
@@ -75,6 +77,14 @@
                 <constraint firstItem="WcX-Ah-PB7" firstAttribute="top" secondItem="9RJ-dC-Sgf" secondAttribute="top" id="zql-pP-gp2"/>
             </constraints>
             <size key="customSize" width="528" height="94"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="PFE-vq-5de"/>
+                    <exclude reference="VEh-hw-4cX"/>
+                    <exclude reference="cI4-kB-rwY"/>
+                    <exclude reference="tos-iB-1N7"/>
+                </mask>
+            </variation>
             <connections>
                 <outlet property="deleteButton" destination="b3A-w8-48v" id="oxV-Iv-QJx"/>
                 <outlet property="descriptionTextView" destination="ypq-uq-iVi" id="ZLn-JP-kvR"/>
@@ -85,7 +95,7 @@
         </collectionViewCell>
     </objects>
     <resources>
-        <image name="deletebutton.png" width="256" height="256"/>
+        <image name="flatdeletebutton.png" width="512" height="512"/>
         <image name="graybackground.jpg" width="615" height="494"/>
     </resources>
 </document>

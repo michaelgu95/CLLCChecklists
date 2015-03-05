@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <window opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="f0d-r8-cMR">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bluebackground.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Nhd-5p-SM1">
+                    <rect key="frame" x="0.0" y="0.0" width="775" height="1024"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="newchecklist.png" translatesAutoresizingMaskIntoConstraints="NO" id="Gnr-ZC-1I0">
+                    <rect key="frame" x="48" y="173" width="679" height="447"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Start by creating a new checklist and adding as many items as desired." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="34f-lf-vVC">
+                    <rect key="frame" x="70" y="54" width="674" height="99"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="Nhd-5p-SM1" firstAttribute="top" secondItem="Gnr-ZC-1I0" secondAttribute="bottom" constant="-620" id="D1E-pq-9ki"/>
+                <constraint firstItem="Nhd-5p-SM1" firstAttribute="centerX" secondItem="Gnr-ZC-1I0" secondAttribute="centerX" id="Dt2-aM-DmZ"/>
+                <constraint firstAttribute="bottom" secondItem="Nhd-5p-SM1" secondAttribute="bottom" id="Jze-jN-9tD"/>
+                <constraint firstItem="34f-lf-vVC" firstAttribute="top" secondItem="f0d-r8-cMR" secondAttribute="top" constant="54" id="WFk-bc-vTK"/>
+                <constraint firstItem="Nhd-5p-SM1" firstAttribute="leading" secondItem="f0d-r8-cMR" secondAttribute="leading" id="WPz-ek-2ZT"/>
+                <constraint firstItem="34f-lf-vVC" firstAttribute="leading" secondItem="Nhd-5p-SM1" secondAttribute="trailing" constant="-705" id="lSx-N7-Vtm"/>
+                <constraint firstItem="Gnr-ZC-1I0" firstAttribute="leading" secondItem="f0d-r8-cMR" secondAttribute="leading" constant="48" id="mD6-2n-iyQ"/>
+                <constraint firstAttribute="trailing" secondItem="34f-lf-vVC" secondAttribute="trailing" constant="24" id="ntB-Jn-d34"/>
+                <constraint firstItem="Nhd-5p-SM1" firstAttribute="top" secondItem="f0d-r8-cMR" secondAttribute="top" id="pZr-bA-L79"/>
+                <constraint firstItem="Gnr-ZC-1I0" firstAttribute="top" secondItem="34f-lf-vVC" secondAttribute="bottom" constant="20" id="tGC-po-owI"/>
+                <constraint firstItem="Nhd-5p-SM1" firstAttribute="leading" secondItem="Gnr-ZC-1I0" secondAttribute="trailing" constant="-727" id="ypA-bd-ZdG"/>
+                <constraint firstItem="Nhd-5p-SM1" firstAttribute="top" secondItem="34f-lf-vVC" secondAttribute="bottom" constant="-153" id="znx-5W-ObO"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+        </window>
+    </objects>
+    <resources>
+        <image name="bluebackground.jpg" width="1920" height="1080"/>
+        <image name="newchecklist.png" width="1400" height="826"/>
+    </resources>
+</document>
