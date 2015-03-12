@@ -14,18 +14,18 @@
                 <rect key="frame" x="0.0" y="0.0" width="903" height="300"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" alpha="0.85000002384185791" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="graybackground.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="qtT-VK-6jg">
+                    <imageView userInteractionEnabled="NO" alpha="0.85000002384185791" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="graybackground.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="qtT-VK-6jg">
                         <rect key="frame" x="-10" y="-51" width="973" height="364"/>
                         <color key="tintColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </imageView>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GBe-Ru-IgH">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GBe-Ru-IgH">
                         <rect key="frame" x="352" y="48" width="275" height="198"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="198" id="fjS-A4-93S"/>
-                            <constraint firstAttribute="width" constant="300" id="sLT-s9-97g"/>
+                            <constraint firstAttribute="width" constant="275" id="sLT-s9-97g"/>
                         </constraints>
                     </imageView>
-                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" keyboardDismissMode="onDrag" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A4Q-Du-O8U">
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" keyboardDismissMode="onDrag" text="Sample" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="A4Q-Du-O8U">
                         <rect key="frame" x="626" y="51" width="240" height="198"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -40,16 +40,16 @@
             </view>
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="qtT-VK-6jg" secondAttribute="trailing" id="1nd-9N-cR8"/>
-                <constraint firstAttribute="bottom" secondItem="qtT-VK-6jg" secondAttribute="bottom" constant="-19" id="47Z-Q7-Mju"/>
-                <constraint firstItem="qtT-VK-6jg" firstAttribute="top" secondItem="pI3-hC-vqP" secondAttribute="top" id="9hs-Qj-l2U"/>
+                <constraint firstAttribute="bottom" secondItem="qtT-VK-6jg" secondAttribute="bottom" constant="-13" id="47Z-Q7-Mju"/>
+                <constraint firstItem="qtT-VK-6jg" firstAttribute="top" secondItem="pI3-hC-vqP" secondAttribute="top" constant="-51" id="9hs-Qj-l2U"/>
                 <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="qtT-VK-6jg" secondAttribute="bottom" id="CPb-kC-yOU"/>
                 <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="qtT-VK-6jg" secondAttribute="bottom" id="DMf-hz-ziX"/>
                 <constraint firstAttribute="centerY" secondItem="A4Q-Du-O8U" secondAttribute="centerY" id="Max-du-THP"/>
-                <constraint firstItem="qtT-VK-6jg" firstAttribute="top" secondItem="pI3-hC-vqP" secondAttribute="top" id="PaE-wq-dAu"/>
+                <constraint firstItem="qtT-VK-6jg" firstAttribute="top" secondItem="pI3-hC-vqP" secondAttribute="top" constant="-51" id="PaE-wq-dAu"/>
                 <constraint firstItem="A4Q-Du-O8U" firstAttribute="leading" secondItem="qtT-VK-6jg" secondAttribute="trailing" constant="-337" id="Txl-1b-uPo"/>
                 <constraint firstItem="A4Q-Du-O8U" firstAttribute="leading" secondItem="GBe-Ru-IgH" secondAttribute="trailing" constant="-1" id="jAV-vP-Q5m"/>
-                <constraint firstItem="qtT-VK-6jg" firstAttribute="leading" secondItem="pI3-hC-vqP" secondAttribute="leading" id="oYM-AN-M1w"/>
-                <constraint firstAttribute="centerY" secondItem="GBe-Ru-IgH" secondAttribute="centerY" id="piP-BH-cPo"/>
+                <constraint firstItem="qtT-VK-6jg" firstAttribute="leading" secondItem="pI3-hC-vqP" secondAttribute="leading" constant="-10" id="oYM-AN-M1w"/>
+                <constraint firstAttribute="centerY" secondItem="GBe-Ru-IgH" secondAttribute="centerY" constant="3" id="piP-BH-cPo"/>
                 <constraint firstAttribute="trailing" secondItem="A4Q-Du-O8U" secondAttribute="trailing" constant="37" id="sCj-4r-DiR"/>
             </constraints>
             <size key="customSize" width="528" height="94"/>

@@ -45,7 +45,6 @@ BOOL _addingMore;
     [flowLayout setScrollDirection:UICollectionViewScrollDirectionVertical];
     
     [self.collectionView setCollectionViewLayout:flowLayout];
-    
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(textFieldDidChange:) name:UITextFieldTextDidChangeNotification object:self.titleTextField];
   
 }
@@ -133,9 +132,8 @@ BOOL _addingMore;
         NSIndexPath *indexPathOfCell = [self.collectionView indexPathForCell:cellToDelete];
         [self.collectionView deleteItemsAtIndexPaths:@[indexPathOfCell]];
         [CheckListItem MR_deleteAllMatchingPredicate:[NSPredicate predicateWithFormat:@"date = %@", cellToDelete.item.date]];
-
         
-    }else {
+    } else{
         SettingsCheckBoxCell *cellToDelete = (SettingsCheckBoxCell *)[[sender superview] superview];
         _numberOfCells--;
         NSIndexPath *indexPathForCell = [self.collectionView indexPathForCell:cellToDelete];
@@ -168,8 +166,7 @@ BOOL _addingMore;
     }
 }
 
-# pragma mark -
-# pragma mark GKImagePicker Delegate Methods
+# pragma mark -GKImagePicker Delegate Methods
 
 - (void)imagePicker:(GKImagePicker *)imagePicker pickedImage:(UIImage *)image{
     _cellInUse.imageView.image = image;
@@ -179,30 +176,21 @@ BOOL _addingMore;
 
 - (void)hideImagePicker{
     if (UIUserInterfaceIdiomPad == UI_USER_INTERFACE_IDIOM()) {
-        
         [self.popoverController dismissPopoverAnimated:YES];
-        
     } else {
-        
         [self.imagePicker.imagePickerController dismissViewControllerAnimated:YES completion:nil];
-        
     }
 }
 
-# pragma mark -
-# pragma mark UIImagePickerDelegate Methods
+# pragma mark - UIImagePickerDelegate Methods
 
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingImage:(UIImage *)image editingInfo:(NSDictionary *)editingInfo{
     _cellInUse.imageView.image = image;
     
     if (UIUserInterfaceIdiomPad == UI_USER_INTERFACE_IDIOM()) {
-        
         [self.popoverController dismissPopoverAnimated:YES];
-        
     } else {
-        
         [picker dismissViewControllerAnimated:YES completion:nil];
-        
     }
 }
 

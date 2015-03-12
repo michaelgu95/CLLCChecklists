@@ -14,39 +14,26 @@
                 <rect key="frame" x="0.0" y="0.0" width="903" height="300"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" alpha="0.85000002384185791" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="graybackground.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="WcX-Ah-PB7">
+                    <imageView userInteractionEnabled="NO" alpha="0.85000002384185791" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="graybackground.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="WcX-Ah-PB7">
                         <rect key="frame" x="-10" y="-51" width="973" height="364"/>
                         <color key="tintColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </imageView>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QcC-E0-Bik">
-                        <rect key="frame" x="352" y="48" width="275" height="198"/>
-                        <constraints>
-                            <constraint firstAttribute="height" constant="198" id="XoI-Ch-oem"/>
-                            <constraint firstAttribute="width" constant="300" id="f9o-ex-GWx"/>
-                        </constraints>
-                    </imageView>
-                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" keyboardDismissMode="onDrag" text="Enter Task" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ypq-uq-iVi">
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" keyboardDismissMode="onDrag" text="Enter Task" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ypq-uq-iVi">
                         <rect key="frame" x="626" y="48" width="240" height="198"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="240" id="1KG-7s-9ti"/>
-                            <constraint firstAttribute="height" constant="198" id="s39-tf-LBm"/>
+                            <constraint firstAttribute="width" constant="240" id="7Lp-Hh-01m"/>
+                            <constraint firstAttribute="height" constant="198" id="Qlo-a4-M3m"/>
                         </constraints>
                         <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="39"/>
                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                     </textView>
-                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h5t-NN-QmB">
-                        <rect key="frame" x="384" y="113" width="199" height="73"/>
-                        <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="21"/>
-                        <state key="normal" title="Tap to change image">
-                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                        </state>
-                    </button>
-                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b3A-w8-48v">
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b3A-w8-48v">
                         <rect key="frame" x="833" y="8" width="35" height="35"/>
                         <constraints>
+                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="35" id="4RD-Lf-beM"/>
                             <constraint firstAttribute="width" constant="35" id="4tV-OH-b7l"/>
+                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="35" id="8mJ-Ir-eKL"/>
                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="35" id="9uG-EI-Oag"/>
                             <constraint firstAttribute="height" constant="35" id="g1p-tg-rk7"/>
                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="35" id="lh3-A1-jxw"/>
@@ -55,36 +42,44 @@
                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                         </state>
                     </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QcC-E0-Bik">
+                        <rect key="frame" x="327" y="48" width="300" height="198"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="198" id="XoI-Ch-oem"/>
+                            <constraint firstAttribute="width" constant="300" id="f9o-ex-GWx"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h5t-NN-QmB">
+                        <rect key="frame" x="380" y="107" width="199" height="73"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="73" id="VKf-bX-aPX"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="21"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <state key="normal" title="Change image">
+                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
                 </subviews>
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             </view>
             <constraints>
-                <constraint firstItem="h5t-NN-QmB" firstAttribute="top" secondItem="QcC-E0-Bik" secondAttribute="bottom" constant="-133" id="IG9-jf-XR0"/>
-                <constraint firstItem="b3A-w8-48v" firstAttribute="leading" secondItem="WcX-Ah-PB7" secondAttribute="trailing" constant="-130" id="JUK-4T-jk2"/>
-                <constraint firstItem="WcX-Ah-PB7" firstAttribute="top" secondItem="b3A-w8-48v" secondAttribute="bottom" constant="-94" id="Ndh-oL-rFG"/>
-                <constraint firstItem="WcX-Ah-PB7" firstAttribute="top" secondItem="9RJ-dC-Sgf" secondAttribute="top" constant="-51" id="PFE-vq-5de"/>
-                <constraint firstAttribute="bottom" secondItem="WcX-Ah-PB7" secondAttribute="bottom" id="PIf-Qb-aRr"/>
-                <constraint firstItem="ypq-uq-iVi" firstAttribute="leading" secondItem="WcX-Ah-PB7" secondAttribute="trailing" constant="-337" id="Szk-Rf-1bn"/>
-                <constraint firstItem="QcC-E0-Bik" firstAttribute="top" secondItem="WcX-Ah-PB7" secondAttribute="bottom" constant="-265" id="Uoh-43-yyL"/>
-                <constraint firstAttribute="bottom" secondItem="WcX-Ah-PB7" secondAttribute="bottom" constant="-13" id="VEh-hw-4cX"/>
-                <constraint firstItem="ypq-uq-iVi" firstAttribute="top" secondItem="WcX-Ah-PB7" secondAttribute="bottom" constant="-265" id="cH0-aX-RKL"/>
-                <constraint firstAttribute="trailing" secondItem="WcX-Ah-PB7" secondAttribute="trailing" constant="-60" id="cI4-kB-rwY"/>
-                <constraint firstAttribute="trailing" secondItem="WcX-Ah-PB7" secondAttribute="trailing" id="mHs-aH-oLx"/>
-                <constraint firstItem="ypq-uq-iVi" firstAttribute="leading" secondItem="QcC-E0-Bik" secondAttribute="trailing" constant="-1" id="rWb-8r-Cbi"/>
-                <constraint firstItem="QcC-E0-Bik" firstAttribute="leading" secondItem="h5t-NN-QmB" secondAttribute="trailing" constant="-231" id="sSa-31-IXF"/>
-                <constraint firstItem="WcX-Ah-PB7" firstAttribute="leading" secondItem="9RJ-dC-Sgf" secondAttribute="leading" constant="-10" id="tos-iB-1N7"/>
-                <constraint firstItem="WcX-Ah-PB7" firstAttribute="leading" secondItem="9RJ-dC-Sgf" secondAttribute="leading" id="uic-kG-f0b"/>
-                <constraint firstItem="WcX-Ah-PB7" firstAttribute="top" secondItem="9RJ-dC-Sgf" secondAttribute="top" id="zql-pP-gp2"/>
+                <constraint firstItem="ypq-uq-iVi" firstAttribute="leading" secondItem="QcC-E0-Bik" secondAttribute="trailing" constant="-1" id="TRf-PU-IBR"/>
+                <constraint firstItem="ypq-uq-iVi" firstAttribute="top" secondItem="b3A-w8-48v" secondAttribute="bottom" constant="5" id="ULj-iD-s9l"/>
+                <constraint firstItem="QcC-E0-Bik" firstAttribute="top" secondItem="WcX-Ah-PB7" secondAttribute="bottom" constant="-265" id="V3V-NZ-wG1"/>
+                <constraint firstItem="WcX-Ah-PB7" firstAttribute="leading" secondItem="9RJ-dC-Sgf" secondAttribute="leading" constant="-10" id="Woc-iC-rMl"/>
+                <constraint firstItem="b3A-w8-48v" firstAttribute="leading" secondItem="WcX-Ah-PB7" secondAttribute="trailing" constant="-130" id="XIv-dU-54W"/>
+                <constraint firstAttribute="trailing" secondItem="ypq-uq-iVi" secondAttribute="trailing" constant="37" id="ZWE-xq-9i0"/>
+                <constraint firstItem="QcC-E0-Bik" firstAttribute="top" secondItem="h5t-NN-QmB" secondAttribute="bottom" constant="-132" id="ZeG-yA-GfM"/>
+                <constraint firstItem="WcX-Ah-PB7" firstAttribute="top" secondItem="9RJ-dC-Sgf" secondAttribute="top" constant="-51" id="d3T-tN-dH0"/>
+                <constraint firstItem="h5t-NN-QmB" firstAttribute="leading" secondItem="WcX-Ah-PB7" secondAttribute="trailing" constant="-583" id="fEc-Nk-KcX"/>
+                <constraint firstAttribute="bottom" secondItem="ypq-uq-iVi" secondAttribute="bottom" constant="54" id="kO3-dA-4bm"/>
+                <constraint firstItem="ypq-uq-iVi" firstAttribute="leading" secondItem="h5t-NN-QmB" secondAttribute="trailing" constant="47" id="ppk-9K-a9P"/>
+                <constraint firstItem="QcC-E0-Bik" firstAttribute="centerY" secondItem="9RJ-dC-Sgf" secondAttribute="centerY" constant="-3" id="tjk-Rv-fvD"/>
+                <constraint firstItem="QcC-E0-Bik" firstAttribute="leading" secondItem="WcX-Ah-PB7" secondAttribute="trailing" constant="-636" id="uAr-eE-Sxu"/>
+                <constraint firstItem="h5t-NN-QmB" firstAttribute="top" secondItem="9RJ-dC-Sgf" secondAttribute="top" constant="107" id="zgS-Lt-rcG"/>
             </constraints>
             <size key="customSize" width="528" height="94"/>
-            <variation key="default">
-                <mask key="constraints">
-                    <exclude reference="PFE-vq-5de"/>
-                    <exclude reference="VEh-hw-4cX"/>
-                    <exclude reference="cI4-kB-rwY"/>
-                    <exclude reference="tos-iB-1N7"/>
-                </mask>
-            </variation>
             <connections>
                 <outlet property="deleteButton" destination="b3A-w8-48v" id="oxV-Iv-QJx"/>
                 <outlet property="descriptionTextView" destination="ypq-uq-iVi" id="ZLn-JP-kvR"/>

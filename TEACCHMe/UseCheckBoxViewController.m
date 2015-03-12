@@ -39,6 +39,7 @@ CheckList *_checkList;
     
     _checkList = self.checkList;
     self.numberOfCells = (int)[self.checkList.checkListItem count];
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -63,7 +64,8 @@ CheckList *_checkList;
     CheckListItem *item = [sortedCheckListItems objectAtIndex:indexPath.item];
     cell.item = item;
     cell.descriptionTextView.text = item.name;
-    cell.descriptionTextView.font = [UIFont fontWithName:@"Avenir Roman" size:39.0];
+    cell.descriptionTextView.selectable = NO;
+    cell.descriptionTextView.editable = NO;
     cell.imageView.image = [[UIImage alloc]initWithData:item.image];
     cell.checked = item.checked;
     
