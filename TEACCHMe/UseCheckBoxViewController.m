@@ -67,7 +67,7 @@ CheckList *_checkList;
     cell.descriptionTextView.selectable = NO;
     cell.descriptionTextView.editable = NO;
     cell.imageView.image = [[UIImage alloc]initWithData:item.image];
-    cell.checked = item.checked;
+    cell.checked = (BOOL)item.checked;
     
     
     cell.backgroundColor = [UIColor whiteColor];
